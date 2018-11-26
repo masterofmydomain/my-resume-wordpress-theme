@@ -1,0 +1,48 @@
+.modal-content { border-radius: 0; box-shadow: none; border: none; }
+.modal-header { position: relative; display: block; padding: 18px 40px 20px; color: #fff; background-color: #303030; border-radius: 0; }
+.modal-header .closeButton { position: absolute; top: 10px; right: 10px; font-size: 13px; }
+.modal-header .closeButton:hover { color: #000; }
+.modal-title { font-size: 28px; font-weight: 800; color: #fefefe; }
+.modal-title + p { margin-top: -7px; font-size: 20px; }
+p:last-child { margin-bottom: 0; }
+.modal-body { padding: 20px 40px; background-color: #fefefe; }
+.modal-body .estimate-container { padding-top: 17px; }
+.modal-body .estimate-text div.estimate-title { margin-bottom: 10px; font-size: 18px; font-weight: 700; }
+.modal-body .estimate-text .radio input[type=radio] { position: absolute; }
+.modal-body .estimate-text .radio label { position: relative; top: -2px; padding-left: 20px; font-size: 14px; font-style: italic; }
+.modal-body .estimate-text button[type=submit] { margin-top: 15px; }
+
+.form-controls input,
+.form-controls textarea,
+.form-controls select {
+  width: 100%;
+  min-height: 41px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #999999;
+  border: 1px solid #aaa;
+  font-size: 13px;
+  text-indent: 15px;
+  resize: none;
+}
+.form-controls .case-category select,
+.form-controls .budget select {
+  padding: 11px 0 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #aaa;
+  border-radius: 0;
+}
+
+div.wpcf7-response-output { margin: 1em 0 0; color: #fefefe; }
+div.wpcf7-mail-sent-ok { background-color: #398f14; }
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing { background-color: #c82333; border: 2px solid #c82333; }
+.wpcf7-not-valid { border-color: #c82333 !important; }
+span.wpcf7-not-valid-tip { padding: 3px 0 0 16px; font-size: 13px; color: #c82333; }
+
+@media (max-width: 576px) {
+  .modal-title {
+    margin-top: 40px;
+  }
+}
